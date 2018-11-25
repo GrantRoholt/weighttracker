@@ -24,10 +24,11 @@ group :test do
   gem 'chromedriver-helper'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 4.1.2'
 gem 'high_voltage'
 gem 'jquery-rails'
 gem 'pg'
+#gem 'sqlite3', '1.3.13'
 group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil
