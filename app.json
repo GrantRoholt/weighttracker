@@ -1,7 +1,7 @@
 {
-  "name": "Weighttracker,
-  "description": "Tracks weight over time",
+  "name": "Weightracker",
+  "description": "A weight tracking app",
   "repository": "https://github.com/GrantRoholt/weighttracker",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["weight", "tracker"]
+  "keywords": ["weight", "track", "app"]
 }
