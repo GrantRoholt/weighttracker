@@ -57,8 +57,7 @@ Rails.application.configure do
   config.log_tags = [ :request_id ]
 
   # Use a different cache store in production.
-    # UUNCOMMENTED BELOW TO TRY TO GET HEROKU DEPLOYMENT TO WORK WITH POSTGRES
-  config.cache_store = :mem_cache_store
+  #config.cache_store = :mem_cache_store
 
   # Use a real queuing backend for Active Job (and separate queues per environment)
     # UUNCOMMENTED 2 LINES BELOW TO TRY TO GET HEROKU DEPLOYMENT TO WORK WITH POSTGRES
