@@ -27,7 +27,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.1.2'
 gem 'high_voltage'
 gem 'jquery-rails'
-gem 'pg'
+gem 'pg', '~> 0.18.4'
 #gem 'sqlite3', '1.3.13'
 group :development do
   gem 'better_errors'
@@ -45,5 +45,5 @@ group :test do
   gem 'launchy'
 end
 group :production do
-  gem 'pg'
+gem 'pg', '~> 0.18.4'
 end
